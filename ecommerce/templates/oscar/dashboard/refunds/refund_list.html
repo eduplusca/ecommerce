@@ -1,4 +1,4 @@
-{% extends 'dashboard/layout.html' %}
+{% extends 'oscar/dashboard/layout.html' %}
 {% load compress %}
 {% load static %}
 {% load currency_filters %}
@@ -96,7 +96,7 @@
         </table>
     {% endblock refund_list %}
 
-    {% include "partials/pagination.html" %}
+    {% include "oscar/partials/pagination.html" %}
 {% else %}
     <table class="table table-striped table-bordered">
         <caption><i class="icon-repeat icon-large icon-flip-horizontal"></i>{{ queryset_description }}</caption>

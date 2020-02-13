@@ -42,7 +42,7 @@ django-filter==2.2.0      # via -r requirements/test.txt
 django-haystack==2.8.1    # via -r requirements/test.txt, django-oscar
 django-libsass==0.8       # via -r requirements/test.txt
 django-model-utils==3.2.0  # via -r requirements/test.txt, edx-rbac
-django-oscar==1.6.7       # via -r requirements/test.txt
+django-oscar==2.0.4       # via -r requirements/test.txt
 django-phonenumber-field==2.0.1  # via -r requirements/test.txt, django-oscar
 django-rest-swagger==2.2.0  # via -r requirements/test.txt
 django-simple-history==2.8.0  # via -r requirements/test.txt
@@ -52,7 +52,7 @@ django-threadlocals==0.10  # via -r requirements/test.txt
 django-treebeard==4.3.1   # via -r requirements/test.txt, django-oscar
 django-waffle==0.20.0     # via -r requirements/test.txt, edx-django-utils, edx-drf-extensions
 django-webtest==1.9.7     # via -r requirements/test.txt
-django-widget-tweaks==1.4.6  # via -r requirements/test.txt, django-oscar
+django-widget-tweaks==1.4.5  # via -r requirements/test.txt, django-oscar
 django==1.11.29           # via -r requirements/test.txt, django-appconf, django-cors-headers, django-crum, django-debug-toolbar, django-extra-views, django-filter, django-haystack, django-model-utils, django-oscar, django-phonenumber-field, django-tables2, django-treebeard, edx-auth-backends, edx-django-release-util, edx-django-sites-extensions, edx-django-utils, edx-drf-extensions, edx-i18n-tools, edx-rbac, jsonfield2, mock-django, pytest-django-ordering, rest-condition, xss-utils
 djangorestframework-csv==2.1.0  # via -r requirements/test.txt
 djangorestframework-datatables==0.5.1  # via -r requirements/test.txt
@@ -96,7 +96,7 @@ markdown==2.6.9           # via -r requirements/test.txt
 markupsafe==1.1.1         # via -r requirements/docs.txt, -r requirements/test.txt, jinja2
 mccabe==0.6.1             # via -r requirements/test.txt, pylint
 mock-django==0.6.10       # via -r requirements/test.txt
-mock==2.0.0               # via -r requirements/test.txt, django-oscar, mock-django
+mock==3.0.5               # via -r requirements/test.txt, mock-django
 more-itertools==8.2.0     # via -r requirements/e2e.txt, -r requirements/test.txt, pytest
 mysqlclient==1.4.6        # via -r requirements/test.txt
 ndg-httpsclient==0.5.1    # via -r requirements/test.txt
@@ -107,7 +107,7 @@ packaging==20.3           # via -r requirements/e2e.txt, -r requirements/test.tx
 path.py==7.2              # via -r requirements/test.txt, edx-i18n-tools
 pathlib2==2.3.5           # via -r requirements/e2e.txt, -r requirements/test.txt, pytest
 paypalrestsdk==1.13.1     # via -r requirements/test.txt
-pbr==5.4.4                # via -r requirements/test.txt, mock, stevedore
+pbr==5.4.4                # via -r requirements/test.txt, stevedore
 phonenumbers==8.11.5      # via -r requirements/test.txt, django-oscar, django-phonenumber-field
 pillow==7.0.0             # via -r requirements/test.txt, django-oscar
 pluggy==0.13.1            # via -r requirements/e2e.txt, -r requirements/test.txt, diff-cover, pytest, tox
@@ -165,7 +165,7 @@ slumber==0.7.1            # via -r requirements/e2e.txt, -r requirements/test.tx
 snowballstemmer==2.0.0    # via -r requirements/docs.txt, sphinx
 git+https://github.com/python-social-auth/social-app-django.git@c00d23c2b45c3317bd35b15ad1b959338689cef8#egg=social-auth-app-django  # via -r requirements/test.txt, edx-auth-backends
 social-auth-core==3.2.0   # via -r requirements/test.txt, edx-auth-backends, social-auth-app-django
-sorl-thumbnail==12.4.1    # via -r requirements/test.txt, django-oscar
+sorl-thumbnail==12.6.3    # via -r requirements/test.txt
 soupsieve==2.0            # via -r requirements/test.txt, beautifulsoup4
 sphinx==1.5.3             # via -r requirements/docs.txt, edx-sphinx-theme
 sqlparse==0.3.1           # via django-debug-toolbar
@@ -179,7 +179,7 @@ tox==3.14.5               # via -r requirements/test.txt, tox-battery
 transifex-client==0.13.7  # via -r requirements/dev.in
 typed-ast==1.4.1          # via -r requirements/test.txt, astroid
 unicodecsv==0.14.1        # via -r requirements/test.txt, djangorestframework-csv
-unidecode==1.0.23         # via -r requirements/test.txt, django-oscar, python-slugify
+unidecode==1.1.1          # via python-slugify
 uritemplate==3.0.1        # via -r requirements/test.txt, coreapi
 urllib3==1.25.8           # via -r requirements/docs.txt, -r requirements/e2e.txt, -r requirements/test.txt, requests, selenium, transifex-client
 virtualenv==16.7.9        # via -r requirements/test.txt, tox

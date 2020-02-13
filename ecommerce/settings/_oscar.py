@@ -2,7 +2,6 @@
 from __future__ import absolute_import
 
 from django.utils.translation import ugettext_lazy as _
-from oscar import get_core_apps
 from oscar.defaults import *
 
 from ecommerce.extensions.fulfillment.status import LINE, ORDER
@@ -15,10 +14,32 @@ OSCAR_HOMEPAGE = reverse_lazy('dashboard:index')
 
 # APP CONFIGURATION
 OSCAR_APPS = [
+    'oscar',
+    'oscar.apps.address',
+    'oscar.apps.shipping',
+    'oscar.apps.catalogue.reviews',
+    'oscar.apps.search',
+    'oscar.apps.wishlists',
+    'oscar.apps.dashboard.reports',
+    'oscar.apps.dashboard.catalogue',
+    'oscar.apps.dashboard.partners',
+    'oscar.apps.dashboard.pages',
+    'oscar.apps.dashboard.ranges',
+    'oscar.apps.dashboard.reviews',
+    'oscar.apps.dashboard.vouchers',
+    'oscar.apps.dashboard.communications',
+    'oscar.apps.dashboard.shipping',
+
+    # 3rd-party apps that oscar depends on
+    'haystack',
+    'treebeard',
+    'django_tables2',
+    'sorl.thumbnail',
+
+    'ecommerce.extensions',
     'ecommerce.extensions.api',
     'ecommerce.extensions.fulfillment',
     'ecommerce.extensions.refund',
-] + get_core_apps([
     'ecommerce.extensions.analytics',
     'ecommerce.extensions.basket',
     'ecommerce.extensions.catalogue',
@@ -26,6 +47,7 @@ OSCAR_APPS = [
     'ecommerce.extensions.customer',
     'ecommerce.extensions.dashboard',
     'ecommerce.extensions.dashboard.offers',
+    'ecommerce.extensions.dashboard.refunds',
     'ecommerce.extensions.dashboard.orders',
     'ecommerce.extensions.dashboard.users',
     'ecommerce.extensions.offer',
@@ -33,7 +55,7 @@ OSCAR_APPS = [
     'ecommerce.extensions.partner',
     'ecommerce.extensions.payment',
     'ecommerce.extensions.voucher',
-])
+]
 # END APP CONFIGURATION
 
 
