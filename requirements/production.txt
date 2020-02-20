@@ -27,7 +27,7 @@ defusedxml==0.6.0         # via python3-openid, social-auth-core, zeep
 git+https://github.com/django-compressor/django-appconf.git@5169ce2c92d9836e0b3ab3ec645727d9d5225d1a#egg=django-appconf  # via -r requirements/base.in, django-compressor
 django-compressor==2.4    # via -r requirements/base.in, django-libsass
 django-cors-headers==3.2.1  # via -r requirements/base.in
-django-crispy-forms==1.9.0  # via -r requirements/base.in
+django-crispy-forms==1.8.1  # via -r requirements/base.in
 django-crum==0.7.5        # via edx-rbac
 django-extensions==2.2.8  # via -r requirements/base.in
 django-extra-views==0.11.0  # via django-oscar
@@ -46,17 +46,17 @@ django-threadlocals==0.10  # via -r requirements/base.in
 django-treebeard==4.3.1   # via django-oscar
 django-waffle==0.20.0     # via -r requirements/base.in, edx-django-utils, edx-drf-extensions
 django-widget-tweaks==1.4.6  # via django-oscar
-django==1.11.29           # via -r requirements/base.in, django-appconf, django-cors-headers, django-crum, django-extra-views, django-filter, django-haystack, django-model-utils, django-oscar, django-phonenumber-field, django-tables2, django-treebeard, edx-auth-backends, edx-django-release-util, edx-django-sites-extensions, edx-django-utils, edx-drf-extensions, edx-rbac, jsonfield2, rest-condition, xss-utils
+django==1.11.29           # via -r requirements/base.in, django-appconf, django-cors-headers, django-crum, django-extra-views, django-filter, django-haystack, django-model-utils, django-oscar, django-phonenumber-field, django-tables2, django-treebeard, djangorestframework, edx-auth-backends, edx-django-release-util, edx-django-sites-extensions, edx-django-utils, edx-drf-extensions, edx-rbac, jsonfield2, rest-condition, xss-utils
 djangorestframework-csv==2.1.0  # via -r requirements/base.in
 djangorestframework-datatables==0.5.1  # via -r requirements/base.in
 djangorestframework-jwt==1.11.0  # via -r requirements/base.in, edx-drf-extensions
-djangorestframework==3.6.4  # via -r requirements/base.in, django-rest-swagger, djangorestframework-csv, djangorestframework-datatables, drf-extensions, edx-drf-extensions, rest-condition
-drf-extensions==0.3.1     # via -r requirements/base.in
+djangorestframework==3.11.0  # via -r requirements/base.in, django-rest-swagger, djangorestframework-csv, djangorestframework-datatables, drf-extensions, edx-drf-extensions, rest-condition
+drf-extensions==0.6.0     # via -r requirements/base.in
 edx-auth-backends==3.0.2  # via -r requirements/base.in
 edx-django-release-util==0.3.6  # via -r requirements/base.in
 edx-django-sites-extensions==2.4.3  # via -r requirements/base.in
 edx-django-utils==3.0     # via -r requirements/base.in, edx-drf-extensions
-edx-drf-extensions==2.4.6  # via -c requirements/pins.txt, -r requirements/base.in, edx-rbac
+edx-drf-extensions==2.4.6  # via -r requirements/base.in, edx-rbac
 edx-ecommerce-worker==0.7.2  # via -r requirements/base.in
 edx-opaque-keys==2.0.1    # via -r requirements/base.in, edx-drf-extensions
 edx-rbac==1.1.1           # via -r requirements/base.in

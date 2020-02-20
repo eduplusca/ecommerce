@@ -32,7 +32,7 @@ diff-cover==2.6.0         # via -r requirements/test.in
 git+https://github.com/django-compressor/django-appconf.git@5169ce2c92d9836e0b3ab3ec645727d9d5225d1a#egg=django-appconf  # via -r requirements/base.txt, django-compressor
 django-compressor==2.4    # via -r requirements/base.txt, django-libsass
 django-cors-headers==3.2.1  # via -r requirements/base.txt
-django-crispy-forms==1.9.0  # via -r requirements/base.txt
+django-crispy-forms==1.8.1  # via -r requirements/base.txt
 django-crum==0.7.5        # via -r requirements/base.txt, edx-rbac
 django-extensions==2.2.8  # via -r requirements/base.txt
 django-extra-views==0.11.0  # via -r requirements/base.txt, django-oscar
@@ -51,17 +51,17 @@ django-treebeard==4.3.1   # via -r requirements/base.txt, django-oscar
 django-waffle==0.20.0     # via -r requirements/base.txt, edx-django-utils, edx-drf-extensions
 django-webtest==1.9.7     # via -r requirements/test.in
 django-widget-tweaks==1.4.6  # via -r requirements/base.txt, django-oscar
-django==1.11.29           # via -r requirements/base.txt, django-appconf, django-cors-headers, django-crum, django-extra-views, django-filter, django-haystack, django-model-utils, django-oscar, django-phonenumber-field, django-tables2, django-treebeard, edx-auth-backends, edx-django-release-util, edx-django-sites-extensions, edx-django-utils, edx-drf-extensions, edx-rbac, jsonfield2, mock-django, pytest-django-ordering, rest-condition, xss-utils
+django==1.11.29           # via -r requirements/base.txt, django-appconf, django-cors-headers, django-crum, django-extra-views, django-filter, django-haystack, django-model-utils, django-oscar, django-phonenumber-field, django-tables2, django-treebeard, djangorestframework, edx-auth-backends, edx-django-release-util, edx-django-sites-extensions, edx-django-utils, edx-drf-extensions, edx-rbac, jsonfield2, mock-django, pytest-django-ordering, rest-condition, xss-utils
 djangorestframework-csv==2.1.0  # via -r requirements/base.txt
 djangorestframework-datatables==0.5.1  # via -r requirements/base.txt
 djangorestframework-jwt==1.11.0  # via -r requirements/base.txt, edx-drf-extensions
-djangorestframework==3.6.4  # via -r requirements/base.txt, django-rest-swagger, djangorestframework-csv, djangorestframework-datatables, drf-extensions, edx-drf-extensions, rest-condition
-drf-extensions==0.3.1     # via -r requirements/base.txt
+djangorestframework==3.11.0  # via -r requirements/base.txt, django-rest-swagger, djangorestframework-csv, djangorestframework-datatables, drf-extensions, edx-drf-extensions, rest-condition
+drf-extensions==0.6.0     # via -r requirements/base.txt
 edx-auth-backends==3.0.2  # via -r requirements/base.txt
 edx-django-release-util==0.3.6  # via -r requirements/base.txt
 edx-django-sites-extensions==2.4.3  # via -r requirements/base.txt
 edx-django-utils==3.0     # via -r requirements/base.txt, edx-drf-extensions
-edx-drf-extensions==2.4.6  # via -c requirements/pins.txt, -r requirements/base.txt, edx-rbac
+edx-drf-extensions==2.4.6  # via -r requirements/base.txt, edx-rbac
 edx-ecommerce-worker==0.7.2  # via -r requirements/base.txt
 edx-opaque-keys==2.0.1    # via -r requirements/base.txt, edx-drf-extensions
 edx-rbac==1.1.1           # via -r requirements/base.txt
@@ -124,7 +124,7 @@ pyparsing==2.4.6          # via -r requirements/tox.txt, packaging
 pytest-cov==2.8.1         # via -r requirements/test.in
 pytest-django-ordering==1.2.0  # via -r requirements/test.in
 pytest-django==3.8.0      # via -r requirements/test.in, pytest-django-ordering
-pytest==5.3.5             # via -r requirements/test.in, pytest-cov, pytest-django, pytest-django-ordering
+pytest==5.4.0             # via -r requirements/test.in, pytest-cov, pytest-django, pytest-django-ordering
 python-dateutil==2.8.1    # via -r requirements/base.txt, analytics-python, edx-drf-extensions, faker, freezegun
 python3-openid==3.1.0 ; python_version >= "3"  # via -r requirements/base.txt, social-auth-core
 pytz==2016.10             # via -c requirements/pins.txt, -r requirements/base.txt, babel, celery, django, zeep
